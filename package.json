@@ -1,0 +1,9 @@
+{
+    "name": "okcupid"
+  , "version": "0.0.1"
+  , "dependencies": {
+	  "restler" : "*"
+	, "soupselect" : "*"
+	, "underscore" : "*"
+  }
+}
