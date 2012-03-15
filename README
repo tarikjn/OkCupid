@@ -1,1 +1,5 @@
-OkCupid api / messaging library
+OkCupid api / messaging library written in node.
+
+Allows for logging in, sending messages, performing match searches, and parsing profiles.
+
+automation.js allows for sending canned messages to many users with timed intervals to avoid detection. It also checks that you havent messaged the user before.
