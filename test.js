@@ -14,9 +14,9 @@ var automatorOptions = {
 	timeBetweenRequests: 30000
 }
 
-var message = 'How are you? I am well despite a homeless man breaking into my laundry room and stealing all of my clothes last night.'
+var message = 'How are you?'
 
-client.authenticate('erosentropic', 'partyb01', function(success){	
+client.authenticate('user', 'pass', function(success){	
 	automator.messageMatches(client, message, automatorOptions, function(){
 		console.log('Complete!')
 	})
