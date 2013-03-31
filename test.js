@@ -17,7 +17,10 @@ var automatorOptions = {
 var message = 'How are you?'
 
 client.authenticate('user', 'pass', function(success){	
-	automator.messageMatches(client, message, automatorOptions, function(){
-		console.log('Complete!')
-	})
+  if (success)
+  {
+  	automator.messageMatches(client, message, automatorOptions, function(){
+  		console.log('Complete!')
+  	})
+  }
 })
