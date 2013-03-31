@@ -2,9 +2,10 @@
     "name": "okcupid"
   , "version": "0.0.1"
   , "dependencies": {
-	  "restler" : "*"
-	, "soupselect" : "*"
-	, "underscore" : "*"
-	, "async" : "*"
+    "restler" : "git://github.com/QuePort/restler#master"
+  , "soupselect" : "*"
+  , "underscore" : "*"
+  , "async" : "*"
+  , "htmlparser" : "*"
   }
 }
